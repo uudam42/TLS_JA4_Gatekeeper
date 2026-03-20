@@ -1,0 +1,19 @@
+(base) uudam@Uudams-MacBook-Pro build % cd ..
+./build/tls_gatekeeper samples/real_tls.pcap
+Connection #1
+-------------
+Src IP: 2603:8000:bc01:ba82:58d9:e938:39ed:d529
+Src Port: 63384
+Dst IP: 2606:4700::6812:1a78
+Dst Port: 443
+TLS Version: 13
+SNI Present: Yes
+Server Name: example.com
+ALPN: h2
+Cipher Count: 49
+Extension Count: 7
+Signature Algorithm Count: 11
+JA4: t13d4907h2_0d8feac7bc37_c301dbdb3ef2
+Decision: BLOCK
+Rule Reason: Known_blocked_browser_fingerprint
+Risk Level: High

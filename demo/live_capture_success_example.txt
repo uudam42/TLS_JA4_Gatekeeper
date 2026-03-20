@@ -1,0 +1,20 @@
+[+] Live capture started on interface: en0
+[+] Waiting for TLS ClientHello packets...
+[+] ClientHello captured in live mode.
+Connection #1
+-------------
+Src IP: 2603:8000:bc01:ba82:58d9:e938:39ed:d529
+Src Port: 64020
+Dst IP: 2620:1ec:46::69
+Dst Port: 443
+TLS Version: 13
+SNI Present: Yes
+Server Name: update.code.visualstudio.com
+ALPN: h2
+Cipher Count: 16
+Extension Count: 19
+Signature Algorithm Count: 8
+JA4: t13d1517h2_8daaf6152771_9f57a497f507
+Decision: ALLOW
+Rule Reason: No matching rule
+Risk Level: Low

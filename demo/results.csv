@@ -1,0 +1,2 @@
+src_ip,src_port,dst_ip,dst_port,tls_version,has_sni,server_name,alpn,cipher_count,extension_count,signature_algorithm_count,ja4,decision,rule_reason,risk_level
+2603:8000:bc01:ba82:58d9:e938:39ed:d529,63384,2606:4700::6812:1a78,443,13,true,example.com,h2,49,7,11,t13d4907h2_0d8feac7bc37_c301dbdb3ef2,BLOCK,Known_blocked_browser_fingerprint,High

@@ -1,0 +1,19 @@
+[
+  {
+    "src_ip": "2603:8000:bc01:ba82:58d9:e938:39ed:d529",
+    "src_port": 63384,
+    "dst_ip": "2606:4700::6812:1a78",
+    "dst_port": 443,
+    "tls_version": "13",
+    "has_sni": true,
+    "server_name": "example.com",
+    "alpn": "h2",
+    "cipher_count": 49,
+    "extension_count": 7,
+    "signature_algorithm_count": 11,
+    "ja4": "t13d4907h2_0d8feac7bc37_c301dbdb3ef2",
+    "decision": "BLOCK",
+    "rule_reason": "Known_blocked_browser_fingerprint",
+    "risk_level": "High"
+  }
+]
